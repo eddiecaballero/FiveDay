@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C047B52210AE50800F8F960 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C047B51210AE50800F8F960 /* PageViewController.swift */; };
+		2C047B5C210AF53000F8F960 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C047B5B210AF53000F8F960 /* Alert.swift */; };
+		2C06E0102108B2D8000AA8CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C06E00F2108B2D8000AA8CA /* AppDelegate.swift */; };
+		2C06E0122108B2D8000AA8CA /* DayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C06E0112108B2D8000AA8CA /* DayViewController.swift */; };
+		2C06E0152108B2D8000AA8CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C06E0132108B2D8000AA8CA /* Main.storyboard */; };
+		2C06E01A2108B2D8000AA8CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C06E0182108B2D8000AA8CA /* LaunchScreen.storyboard */; };
+		2C06E0252108B2D8000AA8CA /* FiveDayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C06E0242108B2D8000AA8CA /* FiveDayTests.swift */; };
+		2C06E0302108B2D8000AA8CA /* FiveDayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C06E02F2108B2D8000AA8CA /* FiveDayUITests.swift */; };
+		2C06E03E2108C1C9000AA8CA /* FiveDayWeatherForecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C06E03D2108C1C9000AA8CA /* FiveDayWeatherForecast.swift */; };
+		2C358D53211BE11C00A68936 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C358D52211BE11C00A68936 /* Default-568h@2x.png */; };
+		2C3976452119D19F00F64B17 /* String+CapitalizingFirstLetter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3976442119D19F00F64B17 /* String+CapitalizingFirstLetter.swift */; };
+		2CEF43EE211A4CD200040167 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CEF43ED211A4CD200040167 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2C06E0212108B2D8000AA8CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C06E0042108B2D8000AA8CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C06E00B2108B2D8000AA8CA;
+			remoteInfo = FiveDays;
+		};
+		2C06E02C2108B2D8000AA8CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C06E0042108B2D8000AA8CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C06E00B2108B2D8000AA8CA;
+			remoteInfo = FiveDays;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2C047B51210AE50800F8F960 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		2C047B5B210AF53000F8F960 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		2C06E00C2108B2D8000AA8CA /* FiveDay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FiveDay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C06E00F2108B2D8000AA8CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2C06E0112108B2D8000AA8CA /* DayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayViewController.swift; sourceTree = "<group>"; };
+		2C06E0142108B2D8000AA8CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2C06E0192108B2D8000AA8CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2C06E01B2108B2D8000AA8CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C06E0202108B2D8000AA8CA /* FiveDayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FiveDayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C06E0242108B2D8000AA8CA /* FiveDayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiveDayTests.swift; sourceTree = "<group>"; };
+		2C06E0262108B2D8000AA8CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C06E02B2108B2D8000AA8CA /* FiveDayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FiveDayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C06E02F2108B2D8000AA8CA /* FiveDayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiveDayUITests.swift; sourceTree = "<group>"; };
+		2C06E0312108B2D8000AA8CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C06E03D2108C1C9000AA8CA /* FiveDayWeatherForecast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiveDayWeatherForecast.swift; sourceTree = "<group>"; };
+		2C358D52211BE11C00A68936 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		2C3976442119D19F00F64B17 /* String+CapitalizingFirstLetter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+CapitalizingFirstLetter.swift"; sourceTree = "<group>"; };
+		2CEF43ED211A4CD200040167 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C06E0092108B2D8000AA8CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C06E01D2108B2D8000AA8CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C06E0282108B2D8000AA8CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C06E0032108B2D8000AA8CA = {
+			isa = PBXGroup;
+			children = (
+				2C06E00E2108B2D8000AA8CA /* FiveDay */,
+				2C06E0232108B2D8000AA8CA /* FiveDayTest */,
+				2C06E02E2108B2D8000AA8CA /* FiveDayUITest */,
+				2C06E00D2108B2D8000AA8CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2C06E00D2108B2D8000AA8CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C06E00C2108B2D8000AA8CA /* FiveDay.app */,
+				2C06E0202108B2D8000AA8CA /* FiveDayTests.xctest */,
+				2C06E02B2108B2D8000AA8CA /* FiveDayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C06E00E2108B2D8000AA8CA /* FiveDay */ = {
+			isa = PBXGroup;
+			children = (
+				2C06E00F2108B2D8000AA8CA /* AppDelegate.swift */,
+				2C047B5B210AF53000F8F960 /* Alert.swift */,
+				2C3976442119D19F00F64B17 /* String+CapitalizingFirstLetter.swift */,
+				2C06E03D2108C1C9000AA8CA /* FiveDayWeatherForecast.swift */,
+				2C047B51210AE50800F8F960 /* PageViewController.swift */,
+				2C06E0112108B2D8000AA8CA /* DayViewController.swift */,
+				2CEF43ED211A4CD200040167 /* Assets.xcassets */,
+				2C358D52211BE11C00A68936 /* Default-568h@2x.png */,
+				2C06E0132108B2D8000AA8CA /* Main.storyboard */,
+				2C06E0182108B2D8000AA8CA /* LaunchScreen.storyboard */,
+				2C06E01B2108B2D8000AA8CA /* Info.plist */,
+			);
+			path = FiveDay;
+			sourceTree = "<group>";
+		};
+		2C06E0232108B2D8000AA8CA /* FiveDayTest */ = {
+			isa = PBXGroup;
+			children = (
+				2C06E0242108B2D8000AA8CA /* FiveDayTests.swift */,
+				2C06E0262108B2D8000AA8CA /* Info.plist */,
+			);
+			path = FiveDayTest;
+			sourceTree = "<group>";
+		};
+		2C06E02E2108B2D8000AA8CA /* FiveDayUITest */ = {
+			isa = PBXGroup;
+			children = (
+				2C06E02F2108B2D8000AA8CA /* FiveDayUITests.swift */,
+				2C06E0312108B2D8000AA8CA /* Info.plist */,
+			);
+			path = FiveDayUITest;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2C06E00B2108B2D8000AA8CA /* FiveDay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C06E0342108B2D8000AA8CA /* Build configuration list for PBXNativeTarget "FiveDay" */;
+			buildPhases = (
+				2C06E0082108B2D8000AA8CA /* Sources */,
+				2C06E0092108B2D8000AA8CA /* Frameworks */,
+				2C06E00A2108B2D8000AA8CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FiveDay;
+			productName = FiveDays;
+			productReference = 2C06E00C2108B2D8000AA8CA /* FiveDay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2C06E01F2108B2D8000AA8CA /* FiveDayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C06E0372108B2D8000AA8CA /* Build configuration list for PBXNativeTarget "FiveDayTests" */;
+			buildPhases = (
+				2C06E01C2108B2D8000AA8CA /* Sources */,
+				2C06E01D2108B2D8000AA8CA /* Frameworks */,
+				2C06E01E2108B2D8000AA8CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C06E0222108B2D8000AA8CA /* PBXTargetDependency */,
+			);
+			name = FiveDayTests;
+			productName = FiveDaysTests;
+			productReference = 2C06E0202108B2D8000AA8CA /* FiveDayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2C06E02A2108B2D8000AA8CA /* FiveDayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C06E03A2108B2D8000AA8CA /* Build configuration list for PBXNativeTarget "FiveDayUITests" */;
+			buildPhases = (
+				2C06E0272108B2D8000AA8CA /* Sources */,
+				2C06E0282108B2D8000AA8CA /* Frameworks */,
+				2C06E0292108B2D8000AA8CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C06E02D2108B2D8000AA8CA /* PBXTargetDependency */,
+			);
+			name = FiveDayUITests;
+			productName = FiveDaysUITests;
+			productReference = 2C06E02B2108B2D8000AA8CA /* FiveDayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C06E0042108B2D8000AA8CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Eddie Caballero";
+				TargetAttributes = {
+					2C06E00B2108B2D8000AA8CA = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					2C06E01F2108B2D8000AA8CA = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2C06E00B2108B2D8000AA8CA;
+					};
+					2C06E02A2108B2D8000AA8CA = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2C06E00B2108B2D8000AA8CA;
+					};
+				};
+			};
+			buildConfigurationList = 2C06E0072108B2D8000AA8CA /* Build configuration list for PBXProject "FiveDay" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2C06E0032108B2D8000AA8CA;
+			productRefGroup = 2C06E00D2108B2D8000AA8CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C06E00B2108B2D8000AA8CA /* FiveDay */,
+				2C06E01F2108B2D8000AA8CA /* FiveDayTests */,
+				2C06E02A2108B2D8000AA8CA /* FiveDayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C06E00A2108B2D8000AA8CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C06E01A2108B2D8000AA8CA /* LaunchScreen.storyboard in Resources */,
+				2C358D53211BE11C00A68936 /* Default-568h@2x.png in Resources */,
+				2CEF43EE211A4CD200040167 /* Assets.xcassets in Resources */,
+				2C06E0152108B2D8000AA8CA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C06E01E2108B2D8000AA8CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C06E0292108B2D8000AA8CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C06E0082108B2D8000AA8CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C06E03E2108C1C9000AA8CA /* FiveDayWeatherForecast.swift in Sources */,
+				2C06E0122108B2D8000AA8CA /* DayViewController.swift in Sources */,
+				2C3976452119D19F00F64B17 /* String+CapitalizingFirstLetter.swift in Sources */,
+				2C06E0102108B2D8000AA8CA /* AppDelegate.swift in Sources */,
+				2C047B52210AE50800F8F960 /* PageViewController.swift in Sources */,
+				2C047B5C210AF53000F8F960 /* Alert.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C06E01C2108B2D8000AA8CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C06E0252108B2D8000AA8CA /* FiveDayTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C06E0272108B2D8000AA8CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C06E0302108B2D8000AA8CA /* FiveDayUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2C06E0222108B2D8000AA8CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C06E00B2108B2D8000AA8CA /* FiveDay */;
+			targetProxy = 2C06E0212108B2D8000AA8CA /* PBXContainerItemProxy */;
+		};
+		2C06E02D2108B2D8000AA8CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C06E00B2108B2D8000AA8CA /* FiveDay */;
+			targetProxy = 2C06E02C2108B2D8000AA8CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2C06E0132108B2D8000AA8CA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C06E0142108B2D8000AA8CA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2C06E0182108B2D8000AA8CA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C06E0192108B2D8000AA8CA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2C06E0322108B2D8000AA8CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2C06E0332108B2D8000AA8CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2C06E0352108B2D8000AA8CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6A37XSZL98;
+				INFOPLIST_FILE = "$(SRCROOT)/FiveDay/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = eduardocaballero.FiveDay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2C06E0362108B2D8000AA8CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6A37XSZL98;
+				INFOPLIST_FILE = "$(SRCROOT)/FiveDay/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = eduardocaballero.FiveDay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2C06E0382108B2D8000AA8CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6A37XSZL98;
+				INFOPLIST_FILE = FiveDaysTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = eduardocaballero.FiveDaysTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FiveDay.app/FiveDay";
+			};
+			name = Debug;
+		};
+		2C06E0392108B2D8000AA8CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6A37XSZL98;
+				INFOPLIST_FILE = FiveDaysTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = eduardocaballero.FiveDaysTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FiveDay.app/FiveDay";
+			};
+			name = Release;
+		};
+		2C06E03B2108B2D8000AA8CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6A37XSZL98;
+				INFOPLIST_FILE = FiveDaysUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = eduardocaballero.FiveDaysUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FiveDays;
+			};
+			name = Debug;
+		};
+		2C06E03C2108B2D8000AA8CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6A37XSZL98;
+				INFOPLIST_FILE = FiveDaysUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = eduardocaballero.FiveDaysUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FiveDays;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C06E0072108B2D8000AA8CA /* Build configuration list for PBXProject "FiveDay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C06E0322108B2D8000AA8CA /* Debug */,
+				2C06E0332108B2D8000AA8CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C06E0342108B2D8000AA8CA /* Build configuration list for PBXNativeTarget "FiveDay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C06E0352108B2D8000AA8CA /* Debug */,
+				2C06E0362108B2D8000AA8CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C06E0372108B2D8000AA8CA /* Build configuration list for PBXNativeTarget "FiveDayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C06E0382108B2D8000AA8CA /* Debug */,
+				2C06E0392108B2D8000AA8CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C06E03A2108B2D8000AA8CA /* Build configuration list for PBXNativeTarget "FiveDayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C06E03B2108B2D8000AA8CA /* Debug */,
+				2C06E03C2108B2D8000AA8CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2C06E0042108B2D8000AA8CA /* Project object */;
+}
